@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand",sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    gap: 12px;
+    padding: 20px 10px 20px 200px;
+    list-style: none;
+    background-color: #1B4436;
+    font-size: 14px;
+    font-weight: 500;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.milharal{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 399px;
+    margin-left: -3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/imagens/image\ 9.png);
+}
+.milharal .titulo {
+    font-size: 48px;
+    background-color: #225243CC;
+    font-family: "Quicksand",sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 20px 80px 20px 80px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    gap: 20px;
+}
+
+.card {
+    height: 390px;
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid #50AA5A;
+    border-radius: 10px 10px 10px 10px;
+}
+.card .card-foto{
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 248px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card .card-foto img {
+    border-radius: 9px 9px 0px 0px;
+    filter: brightness(1.0);
+}
+
+.card .card-foto .texto-overlay {
+    position: absolute;
+}
+
+.card .card-texto {
+    padding: 0px 10px 10px 10px;
+}
+
+.card .botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #50AA5A;
+    height: 44px;
+    border-radius: 0px 0px 9px 9px;
+    color: white;
+    text-decoration: none;
+    /* padding: 10px; */
+}
+
