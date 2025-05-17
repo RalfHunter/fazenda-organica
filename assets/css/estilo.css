@@ -21,6 +21,12 @@ header {
     color: white;
 }
 
+.menu a:hover{
+    color:rgb(43, 160, 32);
+    border-bottom:2px solid rgb(43, 160, 32);
+    padding-bottom: 5px;
+}
+
 .milharal{
     display: flex;
     justify-content: space-between;
@@ -80,15 +86,16 @@ header {
 
 .card .card-foto img {
     border-radius: 9px 9px 0px 0px;
-    filter: brightness(1.0);
+    opacity: .8;
 }
 
 .card .card-foto .texto-overlay {
     position: absolute;
+    text-shadow: 0px 3px 4px white;
 }
 
 .card .card-texto {
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 .card .botao {
@@ -104,3 +111,7 @@ header {
     /* padding: 10px; */
 }
 
+.card .botao:hover {
+    font-weight: 500;
+    background-color: #205e28;
+}
